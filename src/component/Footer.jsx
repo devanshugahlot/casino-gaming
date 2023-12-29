@@ -216,11 +216,11 @@ const Footer = () =>
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <div className="footer-bottom-content text-center d-flex justify-content-between">
+                <div className="footer-bottom-content text-center d-flex justify-content-center">
                   <p>
                     ©2023 <a href="index.html">Casina</a> - All Rights Reserved.{" "}
                   </p>
-                  <ul className="d-flex gap-2">
+                  <ul className="d-flex gap-0">
                     <li><Link to="terms_and_conditions">Terms And Conditions</Link></li>
                     <li><Link to="Contact">Contact us</Link></li>
                     <li><Link to="privacy_policy">Privacy Policy</Link></li>
