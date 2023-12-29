@@ -22942,6 +22942,23 @@ ul li {
     background-color: #ff0052
 }
 
+
+@media (max-width:560px) {
+    
+    #foot{
+        width: 500px;
+        display: inline !important;
+    }
+}
+
+   @media (min-width:560px) {
+
+.last-p{
+   
+    margin-left: -420px !important;
+  
+}
+   }
 .default-button:hover:after {
     background-color: #fff;
     transform: translate(-4px, -4px)

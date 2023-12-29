@@ -217,15 +217,17 @@ const Footer = () =>
             <div className="row">
               <div className="col-12">
                 <div className="footer-bottom-content text-center d-flex justify-content-center">
-                  <p>
-                    ©2023 <a href="index.html">Casina</a> - All Rights Reserved.{" "}
-                  </p>
-                  <ul className="d-flex gap-0">
+                  <ul className="d-flex gap-2" id="foot">
                     <li><Link to="terms_and_conditions">Terms And Conditions</Link></li>
                     <li><Link to="Contact">Contact us</Link></li>
                     <li><Link to="privacy_policy">Privacy Policy</Link></li>
                     <li><Link to="Refund_and_cancellation_policy">Refund And Cancellation</Link></li>
                   </ul>
+               
+                  <p className="last-p">
+                    <br />
+                    ©2023 <a href="index.html">Casina</a> - All Rights Reserved.{" "}
+                  </p>
                 </div>
               </div>
             </div>
