@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import SwipeableTemporaryDrawer from "./resnav";
+import SwipeableTemporaryDrawer2 from "./resnav2";
 import {
   FaFacebookMessenger,
   FaTwitter,
@@ -136,14 +138,13 @@ const Navbar = () => {
                       </li>
                     </ul>
 
-                    <div className="header-bar d-lg-none">
-                      <span />
-                      <span />
-                      <span />
-                    </div>
-                    <div className="ellepsis-bar d-lg-none">
-                      <i className="icofont-info-square" />
-                    </div>
+                    <li className="ResNav">
+                        <SwipeableTemporaryDrawer/>
+                      </li>
+                      <li className="ResNav2">
+                        <SwipeableTemporaryDrawer2/>
+                      </li>
+                   
                   </div>
                 </div>
               </div>

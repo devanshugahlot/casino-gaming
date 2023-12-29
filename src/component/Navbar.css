@@ -69,6 +69,28 @@ hr:not([size]) {
     height: 1px
 }
 
+.ResNav{
+    display: none;
+}
+
+@media (max-width:990px) {
+    .ResNav{
+           display: block;
+    };
+
+}
+
+.ResNav2{
+    display: none;
+}
+
+@media (max-width:990px) {
+    .ResNav2{
+           display: block;
+    };
+
+}
+
 .h1,
 .h2,
 .h3,
