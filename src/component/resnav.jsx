@@ -50,6 +50,10 @@ export default function SwipeableTemporaryDrawer() {
         case 'AllGames':
         navigate('/AllGames'); // Replace '/about' with your actual about route
         break;
+
+        case 'Contact':
+        navigate('/Contact'); // Replace '/about' with your actual about route
+        break;
       // Add more cases for other menu items
       default:
         break;
@@ -64,7 +68,7 @@ export default function SwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Home', 'About', 'Tournament', 'AllGames'].map((text, index) => (
+        {['Home', 'About', 'Tournament', 'AllGames' , 'Contact'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => handleListItemClick(text)} >
               <ListItemIcon>
