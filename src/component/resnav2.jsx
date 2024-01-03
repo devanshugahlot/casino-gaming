@@ -43,8 +43,8 @@ export default function SwipeableTemporaryDrawer2() {
   ];
 
  const Data = [
- {    name: "📞+917240650376", },
- {    name: "📍DHANI BARALA, Jhunjhunu", },
+ {    name: " 📧 rahibet74@gmail.com", },
+ {    name: " 📍 Mumbai, Maharashtra", },
  {    Icons:  socialIcons},
  
  ]
