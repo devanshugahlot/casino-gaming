@@ -156,11 +156,11 @@ const RealtedGames = () =>
           <div className="game__item item-layer">
             <div className="game__inner text-center p-0">
               <div className="game__thumb mb-0">
-                <img style={{height:"46vh"}} src="/images/images (3) (1).jpeg" alt="game-img" className="rounded-3 w-100" />
+                <img style={{height:"46vh"}} src="/images/pngtree-d-realistic-roulette-wheel-and-slot-machine-on-blue-background-experience-image_3737093.jpg" alt="game-img" className="rounded-3 w-100" />
               </div>
               <div className="game__overlay">
                 <div className="game__overlay-left">
-                  <h4>Call Break games</h4>
+                  <h4>Color predtion</h4>
                   
                 </div>
                 <div className="game__overlay-right">

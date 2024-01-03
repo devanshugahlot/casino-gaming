@@ -14,18 +14,18 @@ const Footer = () =>
         <div className="footer-top">
           <div className="container">
             <div className="row g-3 justify-content-center g-lg-0">
-              <div className="col-lg-4 col-sm-6 col-12">
+              {/* <div className="col-lg-4 col-sm-6 col-12">
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
                     <div className="lab-thumb">
                       <img src="/images/phoneicon.png" alt="Phone-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Phone Number :+917240650376</span>
+                      
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-lg-4 col-sm-6 col-12">
                 <div className="footer-top-item lab-item">
                   <div className="lab-inner">
@@ -33,7 +33,7 @@ const Footer = () =>
                       <img src="/images/02.png" alt="email-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Email : raahibet@gmail.com</span>
+                      <span>Email : rahibet74@gmail.com</span>
                     </div>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ const Footer = () =>
                       <img src="/images/03.png" alt="location-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Address : DHANI BARALA, Jhunjhunu</span>
+                      <span>Mumbai, Maharashtra</span>
                     </div>
                   </div>
                 </div>
@@ -59,8 +59,8 @@ const Footer = () =>
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="footer-middle-item-wrapper">
                   <div className="footer-middle-item mb-lg-0">
-                    <div className="fm-item-title mb-4">
-                      <img style={{width:"250px"}} src="images/WhatsApp_Image_2023-12-18_at_16.24.07_93e390b3-removebg-preview.png" alt="logo" />
+                    <div onClick={()=>navigate('/')} className="fm-item-title mb-4">
+                      <img style={{width:"250px"}} src="images/logo3.png" alt="logo" />
                     </div>
                     <div className="fm-item-content">
                       <p className="mb-4">
@@ -92,7 +92,7 @@ const Footer = () =>
                             <a href="#">
                               {" "}
                               <img
-                                src="/images/download (2).jpeg"
+                                src="/images/download.jpeg"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -100,7 +100,7 @@ const Footer = () =>
                           </div>
                           <div className="lab-content">
                             <a >
-                              <h6> Rummy Tourment</h6>
+                              <h6> Dragon Tiger</h6>
                             </a>
 
                             <div className="rating">
@@ -144,7 +144,7 @@ const Footer = () =>
                           <div className="lab-thumb">
                             <a href="#">
                               <img
-                                src="/images/images (13).jpeg"
+                                src="/images/rummylogo (1).jpeg"
                                 alt="footer-widget-img"
                                 className="rounded-3"
                               />
@@ -152,7 +152,7 @@ const Footer = () =>
                           </div>
                           <div className="lab-content">
                             <a href="blog-single.html">
-                              <h6>Ludo Game</h6>
+                              <h6>Rummy Games</h6>
                             </a>
 
                             <div className="rating">
@@ -226,7 +226,7 @@ const Footer = () =>
                
                   <p className="last-p">
                     <br />
-                    ©2023 <a href="index.html">Casina</a> - All Rights Reserved.{" "}
+                    ©2023 <a onClick={()=>navigate('/')}>Casina</a> - All Rights Reserved.{" "}
                   </p>
                 </div>
               </div>

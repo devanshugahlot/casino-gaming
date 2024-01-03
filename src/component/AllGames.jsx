@@ -30,11 +30,7 @@ const gamesData = [
     name: "Head Tail games",
     image: "/images/headtail (1).jpeg",
   },
-  {
-    category: "collection-three",
-    name: "Jackpot games",
-    image: "/images/777 (1).jpeg",
-  },
+  
   {
     category: "collection-three",
     name: "Rummy games",
@@ -59,8 +55,8 @@ const gamesData = [
 
   {
     category: "collection-one",
-    name: "Praivate Table games",
-    image: "/images/privatetable (1).jpeg",
+    name: "color predtion ",
+    image: "/images/colorpredtionai.jpg",
   },
   {
     category: "collection-two",
@@ -76,13 +72,13 @@ const gamesData = [
 
   {
     category: "collection-one",
-    name: "Ludo games",
-    image: "/images/ludoall.jpeg",
+    name: "Roulette",
+    image: "/images/roullateai.jpg",
   },
   {
     category: "collection-two",
-    name: "Ludo games",
-    image: "/images/ludoall.jpeg",
+    name: "Deal rummy",
+    image: "/images/dealrummyai.jpg",
   },
 
   {
@@ -99,14 +95,10 @@ const gamesData = [
 
   {
     category: "collection-three",
-    name: "Aviator games",
-    image: "/images/images (12) (1).jpeg",
+    name: "Private rummy",
+    image: "/images/privaterummyai.jpg",
   },
-  {
-    category: "collection-three",
-    name: "call Break",
-    image: "/images/download (4) (1).jpeg",
-  },
+ 
   {
     category: "collection-one",
     name: "Custom Boot",

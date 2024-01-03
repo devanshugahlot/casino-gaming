@@ -5,57 +5,57 @@ const Tournament = () => {
   const navigate = useNavigate();
   const data = [
     {
-      name: "$10k Midweek Moolha",
+      name: "₹10k Midweek Moolha",
       startsIn: "11:40",
       endsIn: "12:00",
       players: 232,
-      prize: "$1000",
-      entryFee: "$5",
+      prize: "₹1000",
+      entryFee: "₹5",
       bonus: "Yes",
     },
     {
-      name: "$10k Midweek Moolha",
+      name: "₹10k Midweek Moolha",
       startsIn: "11:40",
       endsIn: "12:00",
       players: 232,
-      prize: "$1000",
-      entryFee: "$5",
+      prize: "₹1000",
+      entryFee: "₹5",
       bonus: "Yes",
     },
     {
-      name: "$10k Midweek Moolha",
+      name: "₹10k Midweek Moolha",
       startsIn: "11:40",
       endsIn: "12:00",
       players: 232,
-      prize: "$1000",
-      entryFee: "$5",
+      prize: "₹1000",
+      entryFee: "₹5",
       bonus: "Yes",
     },
     {
-      name: "$10k Midweek Moolha",
+      name: "₹10k Midweek Moolha",
       startsIn: "11:40",
       endsIn: "12:00",
       players: 232,
-      prize: "$1000",
-      entryFee: "$5",
+      prize: "₹1000",
+      entryFee: "₹5",
       bonus: "Yes",
     },
     {
-      name: "$10k Midweek Moolha",
+      name: "₹10k Midweek Moolha",
       startsIn: "11:40",
       endsIn: "12:00",
       players: 232,
-      prize: "$1000",
-      entryFee: "$5",
+      prize: "₹1000",
+      entryFee: "₹5",
       bonus: "Yes",
     },
     {
-      name: "$10k Midweek Moolha",
+      name: "₹10k Midweek Moolha",
       startsIn: "11:40",
       endsIn: "12:00",
       players: 232,
-      prize: "$1000",
-      entryFee: "$5",
+      prize: "₹1000",
+      entryFee: "₹5",
       bonus: "Yes",
     },
   ];
@@ -171,7 +171,7 @@ const Tournament = () => {
                         <th style={{ color: "white" }}>Starts In</th>
                         <th style={{ color: "white" }}>Ends In</th>
                         <th style={{ color: "white" }}>Players</th>
-                        <th style={{ color: "white" }}>Prize($)</th>
+                        <th style={{ color: "white" }}>Prize(₹)</th>
                         <th style={{ color: "white" }}>Entry Fee</th>
                         <th style={{ color: "white" }}>Bonus</th>
                       </tr>
@@ -196,7 +196,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -230,7 +230,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -246,7 +246,7 @@ const Tournament = () => {
                         <th style={{ color: "white" }}>Starts In</th>
                         <th style={{ color: "white" }}>Ends In</th>
                         <th style={{ color: "white" }}>Players</th>
-                        <th style={{ color: "white" }}>Prize($)</th>
+                        <th style={{ color: "white" }}>Prize(₹)</th>
                         <th style={{ color: "white" }}>Entry Fee</th>
                         <th style={{ color: "white" }}>Bonus</th>
                       </tr>
@@ -271,7 +271,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -305,7 +305,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -321,7 +321,7 @@ const Tournament = () => {
                         <th style={{ color: "white" }}>Starts In</th>
                         <th style={{ color: "white" }}>Ends In</th>
                         <th style={{ color: "white" }}>Players</th>
-                        <th style={{ color: "white" }}>Prize($)</th>
+                        <th style={{ color: "white" }}>Prize(₹)</th>
                         <th style={{ color: "white" }}>Entry Fee</th>
                         <th style={{ color: "white" }}>Bonus</th>
                       </tr>
@@ -346,7 +346,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -380,7 +380,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -396,7 +396,7 @@ const Tournament = () => {
                         <th style={{ color: "white" }}>Starts In</th>
                         <th style={{ color: "white" }}>Ends In</th>
                         <th style={{ color: "white" }}>Players</th>
-                        <th style={{ color: "white" }}>Prize($)</th>
+                        <th style={{ color: "white" }}>Prize(₹)</th>
                         <th style={{ color: "white" }}>Entry Fee</th>
                         <th style={{ color: "white" }}>Bonus</th>
                       </tr>
@@ -421,7 +421,7 @@ const Tournament = () => {
                     <div className="tunament__left">
                       <h5>All Rummy Tournaments</h5>
                     </div>
-                    <div className="tunament__right">
+                    {/* <div className="tunament__right">
                       <nav aria-label="Page navigation example">
                         <ul className="pagination mb-0 pb-0">
                           <li className="page-item">
@@ -455,7 +455,7 @@ const Tournament = () => {
                           </li>
                         </ul>
                       </nav>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

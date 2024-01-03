@@ -40,21 +40,11 @@ const Contact = () =>
               </div>
               <div className="contact-content">
                 <h6 className="title">Office Address</h6>
-                <p>DHANI BARALA, Jhunjhunu </p>
+                <p>Mumbai, Maharashtra</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 col-12">
-            <div className="contact-item text-center">
-              <div className="contact-thumb mb-4">
-                <img src="/images/02 (1).png" alt="contact-thumb" />
-              </div>
-              <div className="contact-content">
-                <h6 className="title">Phone number</h6>
-                <p>+917240650376</p>
-              </div>
-            </div>
-          </div>
+        
           <div className="col-lg-4 col-sm-6 col-12">
             <div className="contact-item text-center">
               <div className="contact-thumb mb-4">
@@ -62,7 +52,7 @@ const Contact = () =>
               </div>
               <div className="contact-content">
                 <h6 className="title">Send Email</h6>
-                <p>raahibet@gmil.com</p>
+                <p>rahibet74@gmail.com</p>
               </div>
             </div>
           </div>

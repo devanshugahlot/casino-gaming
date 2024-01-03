@@ -39,167 +39,167 @@ const CasinoJackpots = () => {
                     <ul>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>1.Christopher</p>
+                          <p>1.Kushi</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/02.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹2365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>2.Mark</p>
+                          <p>2.Lokesh</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/04.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹3465.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>3.Craigr</p>
+                          <p>3.Aashish</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/03.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹7665.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>4.Philip</p>
+                          <p>4.Virat</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/08.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹9865.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>5.Jimmy</p>
+                          <p>5.Priya</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/02.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹9365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>6.Arthur</p>
+                          <p>6.Ajay</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/06.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹6365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>7.Jaime</p>
+                          <p>7.Kartik</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/03.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹5365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>8.Perry</p>
+                          <p>8.Kanha</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/08.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹7365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>9.Harold</p>
+                          <p>9.Vishnu</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/03.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹8365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>10.Jerry</p>
+                          <p>10.Shivam</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/04.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹1365.96</h6>
                         </div>
                       </li>
                       <li className="jaqport__gamelist">
                         <div className="jaqport__gamelist-left">
-                          <p>11.Shawn</p>
+                          <p>11.Ravi</p>
                         </div>
                         <div className="jaqport__gamelist-middle">
-                          <img
-                            src="/images/02.jpg"
+                        <img style={{width:"35px"}}
+                            src="/images/pngtree-button-india-flag-vector-template-design-png-image_859963-removebg-preview.png"
                             alt="jaqport-thumb"
                             className="rounded-circle"
                           />
                         </div>
                         <div className="jaqport__gamelist-right">
-                          <h6>$2365.96</h6>
+                          <h6>₹3365.96</h6>
                         </div>
                       </li>
                       {/* <li className="jaqport__gamelist">
@@ -228,7 +228,6 @@ const CasinoJackpots = () => {
                       <div className="jaqport__title-title">
                         <h4>Skills Games</h4>
                       </div>
-                   
                     </div>
                     <div className="jaqport__body">
                       <div className="row g-4 justify-content-center">
@@ -355,8 +354,8 @@ const CasinoJackpots = () => {
                                 />
                               </div>
                               <div className="game__overlay">
-                                <h4>Call Break games</h4>
-                                
+                                <h4>Color Predtion</h4>
+
                                 <a href="#" className="default-button">
                                   <span>
                                     play now <FaAngleRight />
@@ -475,7 +474,7 @@ const CasinoJackpots = () => {
           </div>
         </div>
       </section> */}
-     <section className="collection-section padding-top padding-bottom">
+      <section className="collection-section padding-top padding-bottom">
         <div className="container">
           <div className="section-header">
             <h2>Gaming Features</h2>
@@ -493,12 +492,15 @@ const CasinoJackpots = () => {
                       <img src="/images/images.jpeg" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
-                        <a style={{ color: "#ff0052" }} href="">PAYMENT LIMITATION</a>{" "}
+                      <h4>
+                        <a style={{ color: "#ff0052" }} href="">
+                          PAYMENT LIMITATION
+                        </a>{" "}
                       </h4>
                       <p>
-                        Holisticly underwhe fully researched deliverables for
-                        revoluonary sourcess skills and technically sound
+                        Payment limitations refer to the constraints or
+                        restrictions imposed on financial transactions, or
+                        comply with regulatory requirements.
                       </p>
                     </div>
                   </div>
@@ -511,12 +513,14 @@ const CasinoJackpots = () => {
                       <img src="/images/images (1).jpeg" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
-                        <a style={{ color: "#ff0052" }} href="">Great Solutions</a>{" "}
+                      <h4>
+                        <a style={{ color: "#ff0052" }} href="">
+                          Great Solutions
+                        </a>{" "}
                       </h4>
                       <p>
-                        Holisticly underwhe fully researched deliverables for
-                        revoluonary sourcess skills and technically sound
+                        Great solutions transcend problems, offering innovative
+                        and effective resolutions to challenges.
                       </p>
                     </div>
                   </div>
@@ -529,12 +533,15 @@ const CasinoJackpots = () => {
                       <img src="/images/images (2).jpeg" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
-                        <a style={{ color: "#ff0052" }} href="">Support in Person</a>{" "}
+                      <h4>
+                        <a style={{ color: "#ff0052" }} href="">
+                          Support in Person
+                        </a>{" "}
                       </h4>
                       <p>
-                        Holisticly underwhe fully researched deliverables for
-                        revoluonary sourcess skills and technically sound
+                        Support in person provides personalized assistance and
+                        direct engagement, fostering a tangible and responsive
+                        connection to address needs or concerns.
                       </p>
                     </div>
                   </div>
@@ -548,11 +555,14 @@ const CasinoJackpots = () => {
                     </div>
                     <div className="game__content">
                       <h4>
-                        <a style={{ color: "#ff0052" }} href="">Support in Person</a>{" "}
+                        <a style={{ color: "#ff0052" }} href="">
+                          Support in Person
+                        </a>{" "}
                       </h4>
                       <p>
-                        Holisticly underwhe fully researched deliverables for
-                        revoluonary sourcess skills and technically sound
+                        Daily challenges present opportunities for growth and
+                        learning, while rewards celebrate the persistence and
+                        achievements encountered on the journey.
                       </p>
                     </div>
                   </div>
@@ -565,13 +575,14 @@ const CasinoJackpots = () => {
                       <img src="/images/images (14).jpeg" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
-                        <a style={{ color: "#ff0052" }} href="">Progressive Jackpots:
-</a>{" "}
+                      <h4>
+                        <a style={{ color: "#ff0052" }} href="">
+                          Progressive Jackpots:
+                        </a>{" "}
                       </h4>
                       <p>
-                      Include progressive jackpot systems to attract players with the allure of substantial, growing prizes.
-
+                        Include progressive jackpot systems to attract players
+                        with the allure of substantial, growing prizes.
                       </p>
                     </div>
                   </div>
@@ -584,13 +595,14 @@ const CasinoJackpots = () => {
                       <img src="/images/download.png" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
-                        <a style={{ color: "#ff0052" }} href="">Chat and Social Integration:
-</a>{" "}
+                      <h4>
+                        <a style={{ color: "#ff0052" }} href="">
+                          Chat and Social Integration:
+                        </a>{" "}
                       </h4>
                       <p>
-                      Implement in-game chat features for players to communicate during gameplay. 
-
+                        Implement in-game chat features for players to
+                        communicate during gameplay.
                       </p>
                     </div>
                   </div>
@@ -604,13 +616,14 @@ const CasinoJackpots = () => {
                       <img src="/images/download (3).jpeg" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
-                        <a style={{ color: "#ff0052" }} href="">Tournaments and Leaderboards:
-</a>{" "}
+                      <h4>
+                        <a style={{ color: "#ff0052" }} href="">
+                          Tournaments and Leaderboards:
+                        </a>{" "}
                       </h4>
                       <p>
-                      Organize regular tournaments to engage players and maintain a competitive environment.
-
+                        Organize regular tournaments to engage players and
+                        maintain a competitive environment.
                       </p>
                     </div>
                   </div>
@@ -623,7 +636,7 @@ const CasinoJackpots = () => {
                       <img src="/images/images (15).jpeg" alt="game-img" />
                     </div>
                     <div className="game__content">
-                      <h4 >
+                      <h4>
                         <a style={{ color: "#ff0052" }} href="">
                           Real-Time Multiplayer Gameplay:
                         </a>{" "}
@@ -640,7 +653,6 @@ const CasinoJackpots = () => {
           </div>
         </div>
       </section>
-     
     </div>
   );
 };

@@ -10,12 +10,14 @@ import {
   FaSkype,
   FaRss,
   FaPhone,
+  
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
   FaTelegram,
   FaLinkedin,
 } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 // import { IoIosInformationCircle } from 'react-icons/io';
 const Navbar = () => {
@@ -29,9 +31,9 @@ const Navbar = () => {
             <div className="brand-logo d-none d-lg-inline-block">
               <div className="logo">
                <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
-                  <img src="images/WhatsApp_Image_2023-12-18_at_16.24.07_93e390b3-removebg-preview.png" style={{width:"150px"}} alt="logo" />
+                  <img src="images/logo3.png" style={{width:"150px"}} alt="logo" />
                 </a> 
-              
+                
                 
               </div>
             </div>
@@ -40,10 +42,13 @@ const Navbar = () => {
                 <div className="header-top-area">
                   <ul className="left">
                     <li>
-                      <FaPhone /> <span>+917240650376</span>
+                    <MdEmail />
+                    
+ <span>rahibet74@gmail.com</span>
                     </li>
                     <li>
-                      <FaMapMarkerAlt />DHANI BARALA, Jhunjhunu
+                      <FaMapMarkerAlt />Mumbai, Maharashtra
+
                     </li>
                   </ul>
                   <ul className="social-icons d-flex align-items-center">
@@ -90,8 +95,8 @@ const Navbar = () => {
               <div className="header-bottom">
                 <div className="header-wrapper justify-content-lg-end">
                   <div className="mobile-logo d-lg-none">
-                    <a href="index.html">
-                      <img src="images/WhatsApp_Image_2023-12-18_at_16.24.07_93e390b3-removebg-preview.png" alt="logo" />
+                    <a onClick={()=>navigate('/')}>
+                      <img src="images/logo3.png" alt="logo" />
                     </a>
                   </div>
                   <div className="menu-area">
