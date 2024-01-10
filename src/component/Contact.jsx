@@ -39,8 +39,11 @@ const Contact = () =>
                 <img src="/images/01.png" alt="contact-thumb" />
               </div>
               <div className="contact-content">
-                <h6 className="title">Office Address</h6>
+                    <h6 className="title">Office Address</h6>
+                    <a href="https://www.google.com/maps/place/Mumbai, Maharashtra">
+
                 <p>Mumbai, Maharashtra</p>
+                    </a>
               </div>
             </div>
           </div>
@@ -51,8 +54,11 @@ const Contact = () =>
                 <img src="/images/03 (1).png" alt="contact-thumb" />
               </div>
               <div className="contact-content">
-                <h6 className="title">Send Email</h6>
+                    <h6 className="title">Send Email</h6>
+                    <a href="mailto:rahibet74@gmail.com">
+
                 <p>rahibet74@gmail.com</p>
+                    </a>
               </div>
             </div>
           </div>

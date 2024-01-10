@@ -27640,5 +27640,40 @@ button.swiper-pagination-bullet {
 /*# sourceMappingURL=style.min.css.map */
 
 
+/* ... (other styles) */
+.all-games-dropdown {
+    display: flex;
+    position: absolute;
+    /* right: 20 !important; */
+    top: 100%;
+    /* left: 0; */
+    right: 0;
+    background-color: #fff; /* Adjust the background color as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+ 
+  }
+  
+  .all-games-dropdown ul {
+    width: 250px;
+    list-style: none;
+    margin: 0;
+   
+    
+    /* padding: 10px; */
+  }
+  
+  .all-games-dropdown li {
+    padding: 8px 24px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .all-games-dropdown li:hover {
+    /* Adjust the background color on hover */
 
+background-color: #0C4678;
+color: white;
+  }
+  /* ... (other styles) */
   

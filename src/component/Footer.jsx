@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FaAngleRight, FaStar } from "react-icons/fa";
+import { FaAngleRight, FaFacebook, FaInstagram, FaLinkedin, FaStar, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 const Footer = () =>
 {
@@ -33,7 +33,9 @@ const Footer = () =>
                       <img src="/images/02.png" alt="email-icon" />
                     </div>
                     <div className="lab-content">
-                      <span>Email : rahibet74@gmail.com</span>
+                    <a href="mailto:rahibet74@gmail.com" target="_blank" rel="noopener noreferrer">
+        <span>rahibet74@gmail.com</span>
+      </a>
                     </div>
                   </div>
                 </div>
@@ -45,8 +47,41 @@ const Footer = () =>
                       <img src="/images/03.png" alt="location-icon" />
                     </div>
                     <div className="lab-content">
+                      <a href="https://www.google.com/maps/place/Mumbai, Maharashtra">
+
                       <span>Mumbai, Maharashtra</span>
+                      </a>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6 col-12">
+                <div className="footer-top-item lab-item">
+                  <div className="lab-inner">
+                  <ul style={{display:"flex", justifyContent:"center",margin:"auto", gap:"20px"}} className="lab-content">
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=61554742063668" className="fb">
+                        <FaFacebook style={{fontSize: '1.5em'}} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/raahibet/" className="twitter">
+                        <FaInstagram style={{fontSize: '1.5em'}} />
+                      </a>
+                    </li>
+                    <li>
+                      <a href=" https://t.me/+FJd9R7wUt3dkY2M1
+" className="vimeo">
+                        <FaTelegram style={{fontSize: '1.5em'}} />
+                      </a>
+                    </li>
+                   
+                    <li >
+                      <a href="https://wa.me/+91-8619811154" className="rss">
+                      <  FaWhatsapp style={{fontSize: '1.5em'}} />
+                      </a>
+                    </li>
+                  </ul>
                   </div>
                 </div>
               </div>
@@ -83,86 +118,25 @@ const Footer = () =>
                 <div className="footer-middle-item-wrapper">
                   <div className="footer-middle-item mb-lg-0">
                     <div className="fm-item-title">
-                      <h4>Top jackpot games</h4>
+                      <h4>Our Top Pages</h4>
                     </div>
                     <div className="fm-item-content">
                       <div className="fm-item-widget lab-item">
-                        <div className="lab-inner">
-                          <div className="lab-thumb">
-                            <a href="#">
-                              {" "}
-                              <img
-                                src="/images/download.jpeg"
-                                alt="footer-widget-img"
-                                className="rounded-3"
-                              />
-                            </a>
-                          </div>
-                          <div className="lab-content">
-                            <a >
-                              <h6> Dragon Tiger</h6>
-                            </a>
-
-                            <div className="rating">
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                            </div>
-                          </div>
+                        <div onClick={()=>navigate('/Contact')} className="lab-inner">
+                         
+                         <h4>Contact Us</h4>
                         </div>
                       </div>
                       <div className="fm-item-widget lab-item">
                         <div className="lab-inner">
-                          <div className="lab-thumb">
-                            <a href="#">
-                              <img
-                                src="/images/download (1).jpeg"
-                                alt="footer-widget-img"
-                                className="rounded-3"
-                              />
-                            </a>
-                          </div>
-                          <div className="lab-content">
-                            <a href="blog-single.html">
-                              <h6>3 Patti Game</h6>
-                            </a>
-
-                            <div className="rating">
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                            </div>
-                          </div>
+                         
+                        <h4>Blog</h4>
                         </div>
                       </div>
                       <div className="fm-item-widget lab-item">
-                        <div className="lab-inner">
-                          <div className="lab-thumb">
-                            <a href="#">
-                              <img
-                                src="/images/rummylogo (1).jpeg"
-                                alt="footer-widget-img"
-                                className="rounded-3"
-                              />
-                            </a>
-                          </div>
-                          <div className="lab-content">
-                            <a href="blog-single.html">
-                              <h6>Rummy Games</h6>
-                            </a>
-
-                            <div className="rating">
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                              <FaStar />
-                            </div>
-                          </div>
+                        <div onClick={()=>navigate('/About')} className="lab-inner">
+                         
+                          <h4>ABOUT Us</h4>
                         </div>
                       </div>
                     </div>

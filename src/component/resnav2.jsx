@@ -12,7 +12,7 @@ import ListItemText from '@mui/material/ListItemText';
 // import MailIcon from '@mui/icons-material/Mail';
 import { useNavigate } from 'react-router-dom';
 import { TfiMenu } from "react-icons/tfi";
-import { FaInfoCircle } from "react-icons/fa";
+import { FaInfoCircle, FaWhatsapp } from "react-icons/fa";
 
 import {
     FaFacebookMessenger,
@@ -35,10 +35,10 @@ export default function SwipeableTemporaryDrawer2() {
 
   const socialIcons = [
    
-    <a href="https://www.jobhai.com/hire/candidate-listing?job_id=2982405"  style={{paddingRight:"30px", color:"white"}}><FaFacebook key="facebook" /></a>,
-    <a href="https://www.jobhai.com/hire/candidate-listing?job_id=2982405"  style={{paddingRight:"30px", color:"white"}}><FaInstagram key="instagram" /></a>,
-    <a href="https://www.jobhai.com/hire/candidate-listing?job_id=2982405"  style={{paddingRight:"30px", color:"white"}}><FaTelegram key="telegram" /></a>,
-    <a href="https://www.jobhai.com/hire/candidate-listing?job_id=2982405"  style={{paddingRight:"30px", color:"white"}}><FaLinkedin key="linkdin" /></a>,
+    <a href="https://www.facebook.com/profile.php?id=61554742063668"  style={{paddingRight:"30px", color:"white"}}><FaFacebook key="facebook" /></a>,
+    <a href="https://www.instagram.com/raahibet/"  style={{paddingRight:"30px", color:"white"}}><FaInstagram key="instagram" /></a>,
+    <a href="https://t.me/+FJd9R7wUt3dkY2M1"  style={{paddingRight:"30px", color:"white"}}><FaTelegram key="telegram" /></a>,
+    <a href="https://wa.me/+91-8619811154"  style={{paddingRight:"30px", color:"white"}}><FaWhatsapp key="whatsapp" /></a>,
    
   ];
 

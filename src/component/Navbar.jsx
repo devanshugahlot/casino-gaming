@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SwipeableTemporaryDrawer from "./resnav";
@@ -10,18 +10,22 @@ import {
   FaSkype,
   FaRss,
   FaPhone,
-  
   FaMapMarkerAlt,
   FaFacebook,
   FaInstagram,
   FaTelegram,
   FaLinkedin,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import { IoIosInformationCircle } from 'react-icons/io';
+import game_name from "../component/allgames/Assets/game_name";
+import game_name_second from "../component/allgames/Assets/game_name_second";
+import Item from "./allgames/Item";
 const Navbar = () => {
   const navigate = useNavigate();
+  const [isAllGamesHovered, setAllGamesHovered] = useState(false);
 
   return (
     <div>
@@ -30,11 +34,13 @@ const Navbar = () => {
           <div className="header-holder d-flex flex-wrap justify-content-between align-items-center">
             <div className="brand-logo d-none d-lg-inline-block">
               <div className="logo">
-               <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
-                  <img src="images/logo3.png" style={{width:"150px"}} alt="logo" />
-                </a> 
-                
-                
+                <a style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
+                  <img
+                    src="images/logo3.png"
+                    style={{ width: "150px" }}
+                    alt="logo"
+                  />
+                </a>
               </div>
             </div>
             <div className="header-menu-part">
@@ -42,60 +48,49 @@ const Navbar = () => {
                 <div className="header-top-area">
                   <ul className="left">
                     <li>
-                    <MdEmail />
-                    
- <span>rahibet74@gmail.com</span>
+                      <MdEmail />
+
+                      <a href="mailto:rahibet74@gmail.com" target="_blank" rel="noopener noreferrer">
+        <span>rahibet74@gmail.com</span>
+      </a>
                     </li>
                     <li>
-                      <FaMapMarkerAlt />Mumbai, Maharashtra
+                      <FaMapMarkerAlt />
+                      <a href="https://www.google.com/maps/place/Mumbai, Maharashtra">
 
+                      Mumbai, Maharashtra
+                      </a>
                     </li>
                   </ul>
                   <ul className="social-icons d-flex align-items-center">
                     <li>
-                      <a
-                        href=""
-                        className="fb"
-                      >
+                      <a href="https://www.facebook.com/profile.php?id=61554742063668" className="fb">
                         <FaFacebook />
                       </a>
                     </li>
                     <li>
-                      <a
-                        href=""
-                        className="twitter"
-                      >
+                      <a href="https://www.instagram.com/raahibet/" className="twitter">
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a
-                        href=""
-                        className="vimeo"
-                      >
+                      <a href=" https://t.me/+FJd9R7wUt3dkY2M1" className="vimeo">
                         <FaTelegram />
                       </a>
                     </li>
+                   
                     <li>
-                      <a
-                        href=""
-                        className="skype"
-                      >
-                        <FaLinkedin />
+                      <a href="https://wa.me/+91-8619811154" className="rss">
+                        <FaWhatsapp />
                       </a>
                     </li>
-                    {/* <li>
-                      <a href="" className="rss">
-                        <FaRss />
-                      </a>
-                    </li> */}
                   </ul>
                 </div>
               </div>
               <div className="header-bottom">
                 <div className="header-wrapper justify-content-lg-end">
                   <div className="mobile-logo d-lg-none">
-                    <a onClick={()=>navigate('/')}>
+                    <a onClick={() => navigate("/")}>
                       <img src="images/logo3.png" alt="logo" />
                     </a>
                   </div>
@@ -125,13 +120,42 @@ const Navbar = () => {
                           Tournament
                         </a>
                       </li>
-                      <li>
+                      <li
+                        className="ALL-Games"
+                        onMouseEnter={() => setAllGamesHovered(true)}
+                        onMouseLeave={() => setAllGamesHovered(false)}
+                      >
                         <a
                           style={{ cursor: "pointer" }}
                           onClick={() => navigate("/AllGames")}
                         >
                           All Games
                         </a>
+                        {isAllGamesHovered && (
+                          <div className="all-games-dropdown">
+                            {/* Add your dropdown content here */}
+                            <ul>
+                              {game_name.map((list, index) => {
+                                return (
+                                  <Link to={`/Product/${list.id}`}>
+                                    <li>{list.name}</li>
+                                  </Link>
+                                );
+                              })}
+
+                              {/* Add more games as needed */}
+                            </ul>
+                            <ul>
+                              {game_name_second.map((list, index) => {
+                                return (
+                                  <Link to={`/Product/${list.id}`}>
+                                    <li>{list.name}</li>
+                                  </Link>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                        )}
                       </li>
                       <li>
                         <a
@@ -144,12 +168,11 @@ const Navbar = () => {
                     </ul>
 
                     <li className="ResNav">
-                        <SwipeableTemporaryDrawer/>
-                      </li>
-                      <li className="ResNav2">
-                        <SwipeableTemporaryDrawer2/>
-                      </li>
-                   
+                      <SwipeableTemporaryDrawer />
+                    </li>
+                    <li className="ResNav2">
+                      <SwipeableTemporaryDrawer2 />
+                    </li>
                   </div>
                 </div>
               </div>

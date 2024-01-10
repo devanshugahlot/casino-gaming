@@ -12,6 +12,7 @@ import ListItemText from '@mui/material/ListItemText';
 // import MailIcon from '@mui/icons-material/Mail';
 import { useNavigate } from 'react-router-dom';
 import { TfiMenu } from "react-icons/tfi";
+import BasicSelect from './Dropdown';
     
 export default function SwipeableTemporaryDrawer() {
   const [state, setState] = React.useState({
@@ -33,7 +34,9 @@ export default function SwipeableTemporaryDrawer() {
 
     setState({ ...state, [anchor]: open });
   };
-
+  const CustomComponent = ({ onClick }) => (
+    <BasicSelect onClick={onClick} />
+  );
   const handleListItemClick = (text) => {
     // Add your logic to navigate to the corresponding page
     switch (text) {
@@ -67,18 +70,21 @@ export default function SwipeableTemporaryDrawer() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-        {['Home', 'About', 'Tournament', 'AllGames' , 'Contact'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton onClick={() => handleListItemClick(text)} >
-              <ListItemIcon>
-                {/* {index % 2 === 0 ? <InboxIcon /> : <MailIcon />} */}
-              </ListItemIcon>
-              <ListItemText primary={text} sx={{color:"white"}}/>
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+    <List>
+  {['Home', 'About', 'Tournament', 'AllGames', 'Contact'].map((text, index) => (
+    <ListItem key={text} disablePadding>
+      <ListItemButton onClick={() => handleListItemClick(text)}>
+        <ListItemText primary={text} sx={{ color: 'white' }} />
+      </ListItemButton>
+    </ListItem>
+  ))}
+  {/* Conditionally render the custom component for 'AllGames' */}
+  {['Home', 'About', 'Tournament', 'AllGames', 'Contact'].map((text, index) => (
+    text === 'AllGames' ? (
+      <BasicSelect key={text} onClick={() => handleListItemClick(text)} />
+    ) : null
+  ))}
+</List>
 
       <Divider />
     </Box>

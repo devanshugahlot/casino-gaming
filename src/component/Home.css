@@ -22509,7 +22509,8 @@ ul li {
 
 @media(min-width: 768px) {
     .banner {
-        padding: 350px 0 330px
+        padding: 350px 0 330px;
+        background-color: #110E2D !important;
     }
 }
 
