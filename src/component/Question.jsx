@@ -4,27 +4,24 @@ const Question = () => {
   const [clickedIndex, setClickedIndex] = useState(null);
   const faqData = [
     {
-      question: "How do I create a Casino account?",
-      answer:
-        "To create a Casino account, you can click on the 'Sign Up' or 'Register' button on the website or app. Fill in the required information such as your name, phone number, and password. Follow the on-screen instructions to complete the registration process.",
+      question: " What are money-earning games?",
+      answer: "Games that let you play online and win money are known as real money-earning games. On desktop computers, tablets, and mobile devices, these real money online games are easily available. They can be found in a number of media, including webpages and mobile applications. These games provide players with the opportunity to win real money rewards and are made to be both captivating and enjoyable."
     },
     {
-      question: "Where can I redeem my Casino earnings?",
-      answer:
-        "You can redeem your Casino earnings in the 'My Account' or 'Wallet' section. Look for options like 'Withdraw' or 'Redeem.' Choose your preferred withdrawal method, enter the necessary details, and follow the prompts to withdraw your earnings.",
+      question: " Are all money-earning games free to play?  ",
+      answer: "No, not every game offered by Rahibet is free. Still, there are a number of free-to-play games and freeroll tournaments where you can win real money. A fee is required to enter some of the revenue-generating games. Always keep an eye out for Rahibet competitions and app offers."
     },
     {
-      question: "How do I start playing Casino games?",
-      answer:
-        "To start playing Casino games, log in to your account and navigate to the 'Games' or 'Casino' section. Choose the game you want to play, select your bet amount, and click on 'Play' or 'Start.' Follow the game rules and enjoy the gaming experience.",
+      question: " Can I play real money games on my mobile device?",
+      answer: "Yes. To play games for real money, download the Rahi Bet app to your smartphone. Select your preferred game to play to win cash prizes!"
     },
     {
-      question: "How can I enhance my skills in Casino games?",
-      answer:
-        "To enhance your skills in Casino games, consider practicing regularly and learning game strategies. Many online platforms offer guides and tutorials for different games. Additionally, participating in free or low-stakes games can help you improve without risking significant amounts.",
+      question: " How can I differentiate between real cash games and free games?      ",
+      answer: "There are categories on the Rahi Bet app once you log in that indicate which games are free to play and which ones cost money. To get real money, you can play games with real cash. Note: On Rahi Bet, there's also a chance to win cash in certain free games."
     },
     // Add more FAQs as needed
   ];
+  
   // Add more FAQs as needed
   const handleAccordionClick = (index) => {
     setClickedIndex((prevIndex) => (prevIndex === index ? null : index));
