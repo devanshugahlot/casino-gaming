@@ -43,9 +43,29 @@ export default function SwipeableTemporaryDrawer2() {
   ];
 
  const Data = [
- {    name: " 📧 rahibet74@gmail.com", },
- {    name: " 📍 Mumbai, Maharashtra", },
- {    Icons:  socialIcons},
+  {
+    name: (
+      <a href="mailto:rahibet74@gmail.com" style={{ color: "white" }}>
+        📧 rahibet74@gmail.com
+      </a>
+    ),
+  },
+  {
+    name: (
+      <a
+        href="https://www.google.com/maps/place/Mumbai,+Maharashtra"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "white" }}
+      >
+        📍 Mumbai, Maharashtra
+      </a>
+    ),
+  },
+  {
+    Icons: socialIcons,
+  },
+
  
  ]
 
@@ -63,7 +83,7 @@ export default function SwipeableTemporaryDrawer2() {
     setState({ ...state, [anchor]: open });
   };
 
-//   const handleListItemClick = (text) => {
+
 //     // Add your logic to navigate to the corresponding page
 //     switch (text) {
 //       case 'Home':
